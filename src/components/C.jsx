@@ -9,7 +9,7 @@ const C = () => {
   const [active, setActive] = useState("all");
   const [category, setCategory] = useState([]);
   const controls = useAnimation(); 
-  const [ref, inView] = useInView({ threshold: 0.4 });
+  const [ref, inView] = useInView({ threshold: 0.3 });
 
   useEffect(() => {
     if (inView) {
@@ -65,8 +65,8 @@ const C = () => {
             initial={{opacity:0,y:100}}
             animate={controls}
             transition={{
-              delay:0.2,
-              duration:0.5
+              delay:0.1,
+              duration:0.4
             }}
              key={index} className="bg-white cursor-pointer rounded-lg shadow-md overflow-hidden hover:border-red-500 transition-all">
               <img src={event.image_url} alt={event.event_name} className="w-full h-48 object-cover image-hover-effect" />
