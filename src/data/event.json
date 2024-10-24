@@ -1,0 +1,38 @@
+[
+    {
+      "event_name": "Rock Concert",
+      "image_url": "https://imgs.search.brave.com/FMWyCNFSlRtsaL0MQHlRPE9n_SkvWV8g7d2Jlc8YIv8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQ2/NjM0ODg3L3Bob3Rv/L3JvY2stY29uY2Vy/dC5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9NTU3ZmVHYU1v/eG1VcGRnOHdaQ0J2/T3pQcXlMaC01c1ZI/TW9sRlZDeU9PYz0",
+      "fee": 1500,
+      "location": "Bhopal, India"
+    },
+    {
+      "event_name": "Art Exhibition",
+      "image_url": "https://imgs.search.brave.com/_Vs9kxUYk7Wk8tr9A5vuD-cdQB2zSSsnkh3J5XmuJs8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMjAy/MjI2NDcyOC9waG90/by9hcnRpc3QtcHJl/cGFyaW5nLWFuLWV4/aGliaXRpb24td2l0/aC1wcmludGluZy1j/cmVhdGlvbnMud2Vi/cD9hPTEmYj0xJnM9/NjEyeDYxMiZ3PTAm/az0yMCZjPVo2RVVl/eGhrRjlkbVpTdzY3/MHRaMF9fc0NMSGst/cVVSbEUwLTNyOVdx/ajA9",
+      "fee": 500,
+      "location": "National Museum, New Delhi"
+    },
+    {
+      "event_name": "Food Festival",
+      "image_url": "https://imgs.search.brave.com/qrhcI3AC7iFwEkaeJtIo7hZFORyhgsjV0hEy4RlNQJw/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9mcmVlLXBob3Rv/LWZvb2QtdHJ1Y2st/Y2l0eS1mZXN0aXZh/bC1zZWxlY3RpdmUt/Zm9jdXNfMTA0MTY2/Ni0yODE3OC5qcGc_/c2l6ZT02MjYmZXh0/PWpwZw",
+      "fee": 300,
+      "location": "Mumbai, India"
+    },
+    {
+      "event_name": "Tech Conference",
+      "image_url": "https://imgs.search.brave.com/yefAwRI93aMGwdY48ydZ5N7S4NEyZkgRDJRHh6wx7RI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxNi8w/OC8xNi8wOS81My9p/bnRlcm5hdGlvbmFs/LWNvbmZlcmVuY2Ut/MTU5NzUzMV82NDAu/anBn",
+      "fee": 2500,
+      "location": "Bangalore, India"
+    },
+    {
+      "event_name": "IPL Winning Ceremony of RCB",
+      "image_url": "https://imgs.search.brave.com/A8onSTnXzhMA4pCu-OXdYEFXtZC8kgq0-1CiZQz-xHE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cG9zdG9hc3QuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIz/LzA1L1JDQi1XaW5u/aW5nLUlQTC1BSS1H/ZW5lcmF0ZWQtSW1h/Z2VzLTEuanBn",
+      "fee": 2000,
+      "location": "Chennai, India"
+    },
+    {
+      "event_name": "Stand-up Comedy Night",
+      "image_url": "https://imgs.search.brave.com/W1sVvT5TGAcUugP_1BqmlTX83w8eev_u-118Uy6svsk/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA3LzM5Lzk3LzYz/LzM2MF9GXzczOTk3/NjM2Nl84QURmRVhM/S294VGdXWTRjbzFU/VlFldWZpMnNyNmNZ/Ry5qcGc",
+      "fee": 800,
+      "location": "Pune, India"
+    }
+  ]

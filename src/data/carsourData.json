@@ -1,0 +1,19 @@
+{
+    "slides":[
+        {
+            "src":"https://knowledge.hubspot.com/hubfs/informational-website-examples-18-20241010-7809285.webp",
+          "alt":"im2"
+  
+      },
+        {
+        "src":"https://www.hubspot.com/hs-fs/hubfs/informational-website-design.webp?width=595&height=400&name=informational-website-design.webp",
+        "alt":"im1"
+    },
+    
+    {
+          "src":"https://images.unsplash.com/photo-1522158637959-30385a09e0da?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "alt":"im3"
+    }
+ 
+]
+}

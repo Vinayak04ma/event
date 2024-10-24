@@ -1,0 +1,38 @@
+[
+  {
+    "event_name": "Art Exhibition",
+    "image_url": "https://imgs.search.brave.com/_Vs9kxUYk7Wk8tr9A5vuD-cdQB2zSSsnkh3J5XmuJs8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMjAy/MjI2NDcyOC9waG90/by9hcnRpc3QtcHJl/cGFyaW5nLWFuLWV4/aGliaXRpb24td2l0/aC1wcmludGluZy1j/cmVhdGlvbnMud2Vi/cD9hPTEmYj0xJnM9/NjEyeDYxMiZ3PTAm/az0yMCZjPVo2RVVl/eGhrRjlkbVpTdzY3/MHRaMF9fc0NMSGst/cVVSbEUwLTNyOVdx/ajA9",
+    "fee": 500,
+    "location": "National Museum, New Delhi"
+  },
+  {
+    "event_name": "IPL Winning Ceremony of RCB",
+    "image_url": "https://imgs.search.brave.com/A8onSTnXzhMA4pCu-OXdYEFXtZC8kgq0-1CiZQz-xHE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cG9zdG9hc3QuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIz/LzA1L1JDQi1XaW5u/aW5nLUlQTC1BSS1H/ZW5lcmF0ZWQtSW1h/Z2VzLTEuanBn",
+    "fee": 2000,
+    "location": "Chennai, India"
+  },
+  {
+    "event_name": "Rock Concert",
+    "image_url": "https://imgs.search.brave.com/dFBp42MHHLoAXoVaW0IhAuTvCQDqVbELjYpsA2W7-2E/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvODU3/NTQyMTUvcGhvdG8v/cm9jay1zdGFyLXdp/dGgtaGlzLWd1aXRh/ci5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9aHB0cG1SdG9V/U2pfVHF1aXRuTTV5/bkN5bnotNkFkS1Jy/Qm1TS192bHEwaz0",
+    "fee": 1500,
+    "location": "Bhopal, India"
+  },
+  {
+    "event_name": "Dhoni playing IPL with Akay Kohli",
+    "image_url": "https://imgs.search.brave.com/DMBjBl9J1cdlSADlsrx8OU89yFBc2tUAQvNaob60zrw/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jLm5k/dHZpbWcuY29tLzIw/MTktMDQvMGpqdmdz/YmtfbXMtZGhvbmkt/YW5ncnktcnItdnMt/Y3NrLWJjY2lpcGxf/NjI1eDMwMF8xMl9B/cHJpbF8xOS5qcGc_/aW09RmVhdHVyZUNy/b3AsYWxnb3JpdGht/PWRubix3aWR0aD04/MDYsaGVpZ2h0PTYw/NQ",
+    "fee": 200000,
+    "location": "Central Park, New York"
+  },
+  {
+    "event_name": "Local Art Fair",
+    "image_url": "https://imgs.search.brave.com/weMKxyhoj9Irf-JpycZ0jgMvt5SLfNKVKCKOZdStMII/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTYw/MzE5MTU3My9waG90/by9kaXZlcnNlLWdy/b3VwLW9mLXRlZW5h/Z2Vycy1sb29raW5n/LWF0LWFic3RyYWN0/LWFydC1pbi1hcnQt/Z2FsbGVyeS53ZWJw/P2E9MSZiPTEmcz02/MTJ4NjEyJnc9MCZr/PTIwJmM9c1lZYmpP/ZWV3RUc1RFlNQXdy/Yzc5N0dULWZOUl9a/QTBycERnWWRWaDBC/az0",
+    "fee": 10,
+    "location": "Los Angeles, CA"
+  },
+  {
+    "event_name": "Tech Meetup",
+    "image_url": "https://imgs.search.brave.com/BDmWxfTtWPPV1nVYwM9AhJ7Hjv0UtSOU-6OgQi-UTaY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMjE1/ODY5Mzc2MC9waG90/by9idXNpbmVzcy10/ZWFtLW1lZXRpbmct/b24tdmlkZW8tY29u/ZmVyZW5jZS5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9NFNt/Tmdyck52WUFwaHg1/N3JQajlHcklpc0xy/RThoME9YTTk5SW9w/NTZuRT0",
+    "fee": 0,
+    "location": "San Francisco, CA"
+  }
+]

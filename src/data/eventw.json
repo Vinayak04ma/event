@@ -1,0 +1,37 @@
+[{
+    "event_name": "Tech Meetup",
+    "image_url": "https://imgs.search.brave.com/BDmWxfTtWPPV1nVYwM9AhJ7Hjv0UtSOU-6OgQi-UTaY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMjE1/ODY5Mzc2MC9waG90/by9idXNpbmVzcy10/ZWFtLW1lZXRpbmct/b24tdmlkZW8tY29u/ZmVyZW5jZS5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9NFNt/Tmdyck52WUFwaHg1/N3JQajlHcklpc0xy/RThoME9YTTk5SW9w/NTZuRT0",
+    "fee": 0,
+    "location": "San Francisco, CA"
+  },
+  {
+    "event_name": "Rock Concert",
+    "image_url": "https://imgs.search.brave.com/dFBp42MHHLoAXoVaW0IhAuTvCQDqVbELjYpsA2W7-2E/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvODU3/NTQyMTUvcGhvdG8v/cm9jay1zdGFyLXdp/dGgtaGlzLWd1aXRh/ci5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9aHB0cG1SdG9V/U2pfVHF1aXRuTTV5/bkN5bnotNkFkS1Jy/Qm1TS192bHEwaz0",
+    "fee": 1500,
+    "location": "Bhopal, India"
+  },
+  {
+    "event_name": "Dhoni smasing IPL 2050 final winning shot",
+    "image_url": "https://imgs.search.brave.com/37jy3hqhGN25ebz1lHRKYWNRPk7Oo7NhJ9ht422fRjE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE0/ODI0MjUwMy9waG90/by92aXNha2hhcGF0/bmFtLWluZGlhLW1z/LWRob25pLW9mLXRo/ZS1jaGVubmFpLXN1/cGVyLWtpbmdzLWhp/dHMtb3V0LWR1cmlu/Zy10aGUtaW5kaWFu/LXByZW1pZXIuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPTF3/QURkbXRCMWEzVGRM/YTZDMU5ZajVFd3Rz/a3pGbW9hakFYQ3Ff/ZFdjWlU9",
+    "fee": 200000,
+    "location": "Central Park, New York"
+  },
+  {
+    "event_name": "Local Art Fair",
+    "image_url": "https://imgs.search.brave.com/weMKxyhoj9Irf-JpycZ0jgMvt5SLfNKVKCKOZdStMII/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTYw/MzE5MTU3My9waG90/by9kaXZlcnNlLWdy/b3VwLW9mLXRlZW5h/Z2Vycy1sb29raW5n/LWF0LWFic3RyYWN0/LWFydC1pbi1hcnQt/Z2FsbGVyeS53ZWJw/P2E9MSZiPTEmcz02/MTJ4NjEyJnc9MCZr/PTIwJmM9c1lZYmpP/ZWV3RUc1RFlNQXdy/Yzc5N0dULWZOUl9a/QTBycERnWWRWaDBC/az0",
+    "fee": 10,
+    "location": "Los Angeles, CA"
+  },
+  {
+    "event_name": "Food Festival",
+    "image_url": "https://imgs.search.brave.com/LcklvaNa-1BGYUCi_vKXiEyK52Zk4bKa61yAtf20PAo/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNTQ3/NTMxNTAyL3Bob3Rv/L291dGRvb3Itc3Ry/ZWV0LWZvb2QtZmVz/dGl2YWwtaW4tbGp1/YmxqYW5hLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1lSlEy/TUhCeENqQTI5WXJI/QUpWM2JNakJOZlM3/c3g2SEZuckFhSWp6/ajNBPQ",
+    "fee": 300,
+    "location": "Mumbai, India"
+  },
+  {
+    "event_name": "Stand-up Comedy Night",
+    "image_url": "https://imgs.search.brave.com/WG5eMo8xwECq3hvXZS1F_3S87WSPC6woLPoB0_a-nWY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9i/L2IwLzIwMDdfRGFt/b25fV2F5YW5zLmpw/Zw",
+    "fee": 800,
+    "location": "Pune, India"
+  }
+]

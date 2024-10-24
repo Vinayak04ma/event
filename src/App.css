@@ -1,0 +1,11 @@
+.color{
+  color:white
+}
+.image-hover-effect {
+  transition: opacity 0.3s ease-in-out; /* Smooth transition */
+  opacity: 1; /* Default opacity */
+}
+
+.image-hover-effect:hover {
+  opacity: 0.9; /* Change opacity on hover */
+}
