@@ -20,16 +20,8 @@ const Header=()=>{
       link:"/About"
     },
     
-    {
-      id:"3",
-      name:"Log In",
-      link:"/RegistrationForm"
-    },
-    {
-      id:"4",
-      name:"Sign In",
-      link:"/"
-    },
+
+   
     {
       id:"5",
       name:"Feedback",
@@ -70,6 +62,7 @@ const Header=()=>{
      
 
       {/* Mobile Navigation Menu */}
+
       <ul
         className={
           nav

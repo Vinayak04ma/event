@@ -46,9 +46,9 @@ const cities = [
 
 const Citiess = () => {
   return (
-    <section className="py-12 bg-gray-50">
+    <section className="py-12 bg-[#04152d]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-extrabold text-gray-900 text-center mb-8">
+        <h2 className="text-3xl font-extrabold text-[#e5e5e5] text-center mb-8">
           Popular Cities for Meetups
         </h2>
 
@@ -56,17 +56,17 @@ const Citiess = () => {
           {cities.map((city, index) => (
             <div
               key={index}
-              className="group relative  cursor-pointer bg-white shadow-md rounded-lg p-6 hover:shadow-xl hover:border-red-500 transition-all"
+              className="group relative  cursor-pointer bg-[#579dffbf] shadow-lg rounded-lg p-6 hover:shadow-xl hover:border-red-500 transition-all"
             >
               <img
                 src={city.image}
                 alt={city.name}
                 className="w-24 h-24 mx-auto rounded-full object-cover mb-4 image-hover-effect"
               />
-              <h3 className="text-xl font-semibold text-gray-800 text-center mb-2 group-hover:text-red-500">
+              <h3 className="text-xl font-semibold text-[#e5e5e5] text-center mb-2 group-hover:text-[#23377f]">
                 {city.name}
               </h3>
-              <p className="text-center text-gray-600 group-hover:text-gray-800">
+              <p className="text-center text-[#e5e5e5] group-hover:text-gray-800">
                 {city.description}
               </p>
             </div>
