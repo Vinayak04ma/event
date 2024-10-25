@@ -38,7 +38,7 @@ const Header=()=>{
   return(
     <div className="p-[30px] shadow-xl bg-[#576CBC] text-white z-50 ">
       <div className="max-w-[1200px] mx-auto flex items-center font-semibold text-[18px]">
-        <div className="w-[200px] font-extrabold text-[28px] text-[#f05537] ml-[40px]">
+        <div className="w-[250px] font-bold text-[32px] text-[#bdb9ff] ml-[40px]">
         <Link to="/">Eventify</Link>
         </div>
         <nav className="hidden md:flex list-none gap-10 ml-auto mr-[35
