@@ -8,7 +8,7 @@ const Foot = () => {
           <div>
             <h2 className="text-xl font-bold mb-4">About Us</h2>
             <p className="text-gray-400">
-              Discover and explore events happening in Raipur. Join us for an unforgettable experience!
+              Discover and explore events happening in Bhopal. Join us for an unforgettable experience!
             </p>
           </div>
           <div>

@@ -9,7 +9,7 @@ const C = () => {
   const [active, setActive] = useState("all");
   const [category, setCategory] = useState([]);
   const controls = useAnimation(); 
-  const [ref, inView] = useInView({ threshold: 0.3 });
+  const [ref, inView] = useInView({ threshold: 0.2 });
 
   useEffect(() => {
     if (inView) {
@@ -49,7 +49,7 @@ const C = () => {
 
   return (
     <>
-      <div >
+      <div>
         <h1 className="font-bold text-[30px] text-gray-800 ml-6 mt-[50px]">Popular Events in INDIA</h1>
         <div className="flex gap-6 ml-8 mt-[20px] text-gray-700 font-semibold text-[24px]">
           <div onClick={() => handleTabClick("all")} className={`cursor-pointer p-4 ${getTabClass("all")}`}>All</div>

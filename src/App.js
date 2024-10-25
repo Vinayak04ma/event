@@ -15,21 +15,23 @@ import {BrowserRouter as Router ,Route,Routes,Link} from 'react-router-dom';
 import Home from './components/screens/Home';
 import Feedback from './components/screens/Feedback';
 import RegistrationForm from './components/screens/RegistrationForm';
+import About from './components/screens/About';
 
 function App() {
  
   return (
-    <>
+    <div >
    <Router>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/About" element={<About/>}/>
         <Route path="/Feedback" element={<Feedback />} />
         <Route path="/RegistrationForm" element={<RegistrationForm />} />
       </Routes>
     </Router>
   
-  </>
+  </div>
 
   );
 }

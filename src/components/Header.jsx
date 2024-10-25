@@ -16,14 +16,14 @@ const Header=()=>{
     },
     {
       id:"2",
-      name:"Contact Us",
-      link:"/"
+      name:"About",
+      link:"/About"
     },
     
     {
       id:"3",
       name:"Log In",
-      link:"/"
+      link:"/RegistrationForm"
     },
     {
       id:"4",
