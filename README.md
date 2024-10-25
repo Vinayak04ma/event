@@ -1,6 +1,6 @@
 # Eventify
 
-Eventify is a responsive and interactive website that showcases events happening around us. It was built as a **group project** using **React.js** and **Tailwind CSS** to test and demonstrate our front-end development skills. This project was created collaboratively by two batchmates, with equal contributions from both.
+Eventify is a responsive and interactive website that showcases events happening around us. It was built as a **group project** using **React.js** and **Tailwind CSS** to test and demonstrate our front-end development skills. This project was created collaboratively by two persons, with equal contributions from both.
 
 ## Features
 
