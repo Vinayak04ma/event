@@ -17,7 +17,7 @@ const Carousel=({data})=>{
     
        return (
         <>
-        <div className="flex justify-center items-center w-full h-[480px] relative z-10 ">
+        <div className="flex justify-center items-center  h-[480px] relative z-10 ">
             <BsArrowLeftCircleFill onClick={prevSlide} className="absolute w-[2rem] h-[2rem] color left-[1rem] cursor-pointer"/> 
              {
          data.map((item,idx)=>{

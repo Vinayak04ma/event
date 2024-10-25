@@ -44,13 +44,13 @@ const Header=()=>{
   
   ]
   return(
-    <div className="p-[30px] shadow-xl text-black z-50 ">
+    <div className="p-[30px] shadow-xl bg-[#576CBC] text-white z-50 ">
       <div className="max-w-[1200px] mx-auto flex items-center font-semibold text-[18px]">
         <div className="w-[200px] font-extrabold text-[28px] text-[#f05537] ml-[40px]">
         <Link to="/">Eventify</Link>
         </div>
         <nav className="hidden md:flex list-none gap-10 ml-auto mr-[35
-        px] text-[18px] text-[#39364f] font-semibold ">
+        px] text-[18px] text-[#e6e6e6] font-semibold ">
             
                 
                  
