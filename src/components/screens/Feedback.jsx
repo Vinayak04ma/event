@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Foot from "../Foot";
 
 
 const Feedback = () => {
@@ -40,19 +41,21 @@ const Feedback = () => {
   };
 
   return (
-    <div className="max-w-2xl mx-auto p-8 bg-gradient-to-br from-white to-blue-50 shadow-xl rounded-lg mt-10">
-      <h2 className="text-3xl font-bold text-gray-800 mb-6 text-center">Submit Your Feedback for us to improve !</h2>
-
+    <>
+   
+    <div className="max-w-2xl mx-auto p-8 bg-[#576CBC] shadow-lg rounded-lg my-10">
+      <h2 className="text-3xl font-bold text-white mb-6 text-center">Submit Your Feedback for us to improve !</h2>
+                             {/* text-gray-800 */}
       <form onSubmit={handleSubmit} className="space-y-6">
 
         <div>
-          <label className="block text-lg font-semibold text-gray-700 mb-2" htmlFor="name">
+          <label className="block text-lg font-semibold  text-[#f2f1f1] mb-2" htmlFor="name">
             Name
           </label>
-          <input type="text" id="name" name="name" value={formData.name} onChange={handleInputChange}
+          <input type="text" id="name" name="name" value={formData.name} autocomplete="off" onChange={handleInputChange}
             
-            className={`w-full p-3 border ${ formErrors.name ? 'border-red-500' : 'border-gray-300'
-            } rounded-lg focus:outline-none focus:ring-4 transition-all duration-300 ${ formErrors.name ? 'focus:ring-red-300' : 'focus:ring-blue-400'}`}
+            className={`w-full p-3 border ] ${ formErrors.name ? 'border-red-500' : 'border-gray-300'
+            } rounded-lg focus:outline-none focus:ring-4 transition-all duration-300  ${ formErrors.name ? 'focus:ring-red-300' : 'focus:ring-blue-400'}`}
             placeholder="Enter your name" required />
 
           {formErrors.name && <p className="text-red-500 text-sm mt-1">{formErrors.name}</p>}
@@ -63,12 +66,12 @@ const Feedback = () => {
 
 
         <div>
-          <label className="block text-lg font-semibold text-gray-700 mb-2" htmlFor="rating">
+          <label className="block text-lg font-semibold text-[#f2f1f1] mb-2" htmlFor="rating">
             Rating (1-5)
           </label>
           <select  id="rating"  name="rating" value={formData.rating} onChange={handleInputChange}
         
-            className={`w-full p-3 border ${ formErrors.rating ? 'border-red-500' : 'border-gray-300'} rounded-lg focus:outline-none focus:ring-4 transition-all duration-300 ${
+            className={`w-full p-3 border lc  ${ formErrors.rating ? 'border-red-500' : 'border-gray-300'} rounded-lg focus:outline-none focus:ring-4 transition-all duration-300 ${
               formErrors.rating ? 'focus:ring-red-300' : 'focus:ring-blue-400' }`}
             required >
             <option value="">Select a rating</option>
@@ -89,12 +92,12 @@ const Feedback = () => {
         </div>
 
         <div>
-          <label className="block text-lg font-semibold text-gray-700 mb-2" htmlFor="comments">
+          <label className="block text-lg font-semibold text-[#f2f1f1] mb-2" htmlFor="comments">
             Comments
           </label>
           <textarea id="comments" name="comments"  value={formData.comments}  onChange={handleInputChange}
           
-             className={`w-full p-3 border ${  formErrors.comments ? 'border-red-500' : 'border-gray-300'
+             className={`w-full p-3 border  ${  formErrors.comments ? 'border-red-500' : 'border-gray-300'
             } rounded-lg focus:outline-none focus:ring-4 transition-all duration-300 ${
               formErrors.comments ? 'focus:ring-red-300' : 'focus:ring-blue-400' }`}
             placeholder="Write your feedback here" rows="4" required>
@@ -110,7 +113,7 @@ const Feedback = () => {
 
         <button
           type="submit"
-          className="w-full bg-blue-600 text-white font-semibold text-lg py-3 rounded-lg shadow-md hover:bg-blue-700 hover:shadow-lg transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-blue-300"
+          className="w-full bg-blue-700 text-white font-semibold text-lg py-3 rounded-lg shadow-md hover:bg-blue-500 hover:shadow-lg transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-blue-300"
         >
           Submit Feedback
         </button>
@@ -120,13 +123,13 @@ const Feedback = () => {
 
     
       <div className="mt-10">
-        <h3 className="text-2xl font-bold text-gray-800 mb-4"> Check out our Recent Feedback</h3>
+        <h3 className="text-2xl font-bold text-white mb-4"> Check out our Recent Feedback</h3>
         <div className="space-y-6">
           {feedbackList.map((feedback, index) => (
-            <div key={index} className="p-6 bg-white border border-gray-200 shadow-md rounded-lg transition-transform hover:scale-105 duration-300">
+            <div key={index} className="p-6 bg-[#04152d] border border-gray-200 shadow-md rounded-lg transition-transform hover:scale-105 duration-300">
             
               <div className="flex items-center justify-between mb-4">
-                <h4 className="text-xl font-semibold text-gray-700">{feedback.name}</h4>
+                <h4 className="text-xl font-semibold text-white">{feedback.name}</h4>
             
                 <span className="text-yellow-500 text-lg font-bold">
                   {'★'.repeat(feedback.rating)}
@@ -134,7 +137,7 @@ const Feedback = () => {
 
               </div>
 
-              <p className="text-gray-600">{feedback.comments}</p>
+              <p className="text-white">{feedback.comments}</p>
 
             </div>
           ))}
@@ -143,8 +146,10 @@ const Feedback = () => {
       </div>
 
 
-
+   
     </div>
+     <Foot/>
+    </>
   );
 };
 

@@ -13,9 +13,9 @@ const C = () => {
 
   useEffect(() => {
     if (inView) {
-      controls.start({ opacity: 1, y: 0 }); // Start animation when in view
+      controls.start({ opacity: 1, y: 0 }); 
     } else {
-      controls.start({ opacity: 0, y: 100 }); // Reset when out of view (optional)
+      controls.start({ opacity: 0, y: 100 }); 
     }
   }, [controls, inView]);
 

@@ -1,11 +1,17 @@
+*{
+  scrollbar-color:#091134 #576CBC;
+}
 .color{
   color:white
 }
 .image-hover-effect {
-  transition: opacity 0.3s ease-in-out; /* Smooth transition */
-  opacity: 1; /* Default opacity */
+  transition: opacity 0.3s ease-in-out; 
+  opacity: 1;
 }
 
 .image-hover-effect:hover {
-  opacity: 0.9; /* Change opacity on hover */
+  opacity: 0.9; }
+.lc{
+  color: black;
+  
 }

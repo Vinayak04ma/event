@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Foot from "../Foot";
 
 const RegistrationForm = () => {
   const [formData, setFormData] = useState({
@@ -40,8 +41,9 @@ const RegistrationForm = () => {
   };
 
   return (
-    <div className="max-w-lg mx-auto p-8 bg-gradient-to-br from-blue-50 to-blue-100 shadow-lg rounded-xl mt-10">
-      <h2 className="text-3xl font-bold text-gray-800 mb-6 text-center">Event Registration</h2>
+    <>
+    <div className="max-w-lg mx-auto p-8 bg-[#576CBC] shadow-lg rounded-xl my-10">
+      <h2 className="text-3xl font-bold text-white  mb-6 text-center">Event Registration</h2>
 
       {submitted ? (
         <div className="p-4 mb-6 text-green-800 bg-green-100 rounded-md border border-green-300">
@@ -51,7 +53,7 @@ const RegistrationForm = () => {
 
 
           <div>
-            <label className="block text-lg font-semibold text-gray-700 mb-2" htmlFor="name">
+            <label className="block text-lg font-semibold text-[#f2f1f1] mb-2" htmlFor="name">
               Full Name
             </label>
             <input
@@ -67,7 +69,7 @@ const RegistrationForm = () => {
           </div>
 
           <div>
-            <label className="block text-lg font-semibold text-gray-700 mb-2" htmlFor="email">
+            <label className="block text-lg font-semibold text-[#f2f1f1] mb-2" htmlFor="email">
               Email Address
             </label>
             <input type="email" id="email" name="email" value={formData.email} onChange={Input} className={`w-full p-3 border 
@@ -85,7 +87,7 @@ const RegistrationForm = () => {
         
 
           <div>
-            <label className="block text-lg font-semibold text-gray-700 mb-2" htmlFor="ticketType">
+            <label className="block text-lg font-semibold text-[#f2f1f1] mb-2" htmlFor="ticketType">
               Ticket Type
             </label>
             <select id="ticketType" name="ticketType" value={formData.ticketType}  onChange={Input}
@@ -114,7 +116,7 @@ const RegistrationForm = () => {
               className="h-5 w-5 text-blue-500 focus:ring-4 focus:ring-blue-300 rounded-md transition-all duration-300"
               required
             />
-            <label className="text-gray-700 text-sm">
+            <label className="text-[#f2f1f1] text-sm">
               I agree to the <span className="underline">terms and conditions</span>
             </label>
             {formErrors.agreeTerms && (
@@ -133,7 +135,10 @@ const RegistrationForm = () => {
           </button>
         </form>
       )}
+    
     </div>
+    <Foot/>
+    </>
   );
 };
 

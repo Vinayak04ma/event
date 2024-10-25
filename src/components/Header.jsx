@@ -66,18 +66,18 @@ const Header=()=>{
       <ul
         className={
           nav
-            ? 'fixed md:hidden left-0 top-0 w-[60%] h-full border-r  border-r-gray-900 bg-white ease-in-out duration-500 z-50'
+            ? 'fixed md:hidden left-0 top-0 w-[60%] h-full border-r  border-r-gray-900 bg-[#576CBC] ease-in-out duration-500 z-50'
             : 'ease-in-out w-[60%] fixed duration-500  top-0 bottom-0 left-[-100%] z-50'
         }
       >
         {/* Mobile Logo */}
-        <h1 className='w-full text-3xl font-bold text-[#f05537] m-4'>Eventify</h1>
+        <h1 className='w-full text-3xl font-bold text-[#bdb9ff] m-4'>Eventify</h1>
 
         {/* Mobile Navigation Items */}
         {links.map((item) => (
           <li
             key={item.id}
-            className='p-4 border-b rounded-xl hover:bg-[#00df9a] duration-300 hover:text-black cursor-pointer border-gray-600'
+            className='p-4 border-b rounded-xl hover:bg-[#04152d] duration-300 hover:text-[#576CBC] cursor-pointer border-gray-600'
           > <Link to={item.link}>{item.name}</Link>
           
           </li>
